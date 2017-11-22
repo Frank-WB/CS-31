@@ -38,7 +38,7 @@ void countMatches(const char s1[], const char s2[], int& nStars, int& nPlanets);
 int main()
 {
       // Get word list
-
+      
     char wordList[MAXWORDS][MAXWORDLEN+1];
 
     int nWords = getWords(wordList, MAXWORDS, WORDFILENAME);
